@@ -1,28 +1,28 @@
-Simple-JSON (lib)
-Psc-Package (tutorial)
-Spacchetti (tutorial)
-Easy PureScript nix (nix)
-Psc-Package2Nix (nix)
-Pandoc with Nix (nix)
-Inferred record types with Simple-JSON (lib)
-Union Constraints (row)
-RowToList Chart.js (row)
-Home Run Ball (row)
-Type annotated type level string templates (symbolcons)
-type classes are pattern matching for types (types)
-oh yes, datatype generic based (types)
-inferred error types (types)
-instance chains and Kazunoko (types)
-type level path params (symbolcons)
-jajanmen (symbolcons)
-tanghulu (symbolcons)
-naporitan (row)
-tortellini (row)
-FFI in purescript (tutorial)
-bower to nix (nix)
-CI for purescript projects (tutorial)
-dynamically typed errors in purescript (lib)
-implementing your own compiler type class (tutorial)
+(Lib)        Simple-JSON
+(Tutorial)   Psc-Package
+(Symbolcons) tanghulu
+(Nix)        Easy PureScript nix
+(Types)      oh yes, datatype generic based
+(Row)        Home Run Ball
+(Tutorial)   Spacchetti
+(Symbolcons) Type annotated type level string templates
+(Nix)        Psc-Package2Nix
+(Types)      type classes are pattern matching for types
+(Lib)        Inferred record types with Simple-JSON
+(Row)        tortellini
+(Symbolcons) type level path params
+(Tutorial)   CI for purescript projects
+(Nix)        bower to nix
+(Lib)        dynamically typed errors in purescript
+(Row)        Union Constraints
+(Symbolcons) jajanmen
+(Tutorial)   implementing your own compiler type class
+(Nix)        Pandoc with Nix
+(Types)      instance chains and Kazunoko
+(Row)        naporitan
+(Types)      inferred error types
+(Tutorial)   FFI in purescript
+(Row)        RowToList Chart.js
 
 categories:
 nix: 4
