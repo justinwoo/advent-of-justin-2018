@@ -2,12 +2,12 @@
 (Tutorial) Psc-Package
 (Symbol)   Tanghulu
 (Nix)      Easy PureScript nix
-(Types)    Oh-Yes, datatype generic based
+(Types)    Type classes are pattern matching for types
 (Row)      Home Run Ball
 (Tutorial) Spacchetti
 (Symbol)   Type annotated type level string templates
 (Nix)      Psc-Package2Nix
-(Types)    Type classes are pattern matching for types
+(Types)    Oh-Yes, datatype generic based
 (Lib)      Inferred record types with Simple-JSON
 (Row)      Tortellini
 (Symbol)   Type level path params
