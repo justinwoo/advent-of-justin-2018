@@ -5,12 +5,12 @@
 1. (Types)    Type classes are pattern matching for types
 1. (Row)      Home Run Ball
 1. (Tutorial) Spacchetti
-1. (Symbol)   Type annotated type level string templates
+1. (Symbol)   Type level path params
 1. (Nix)      Psc-Package2Nix
 1. (Types)    Oh-Yes, datatype generic based
 1. (Lib)      Inferred record types with Simple-JSON
 1. (Row)      Tortellini
-1. (Symbol)   Type level path params
+1. (Symbol)   Type annotated type level string templates
 1. (Tutorial) CI for purescript projects
 1. (Nix)      Bower to nix
 1. (Lib)      Dynamically typed errors in purescript
