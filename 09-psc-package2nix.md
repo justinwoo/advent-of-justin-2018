@@ -4,7 +4,7 @@ And while many will say that Psc-Package indeed shouldn't use git to fetch every
 
 So what if instead of trying to make yet another shitty solution, we can use a solution that does try to do the right thing? If we use Nix for this, we can write derivations for how the dependencies are to be fetched, and those will be hashed. When these derivations are run, Nix will create store entries for these derivations. How do we generate this from a psc-packages.json file though?
 
-## Nix-ify your Psc-Package dependencies
+## "Nix-ify your Psc-Package dependencies"
 
 In this post, I talked about how the psc-package2nix tool works, by using the package set and the direct dependencies to generate derivations for each package with the correct sha256 hash needed to verify the contents of the dependency sources.
 

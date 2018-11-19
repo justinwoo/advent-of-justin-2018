@@ -29,7 +29,7 @@ instance showFruit :: Show Fruit where
 
 So in this example, we were able to get an implementation of `show` for free, by using the datatype generics implementation of `show` with a compiler-derived instance of `Generic` for `Fruit`.
 
-##### OhYes you can interop with TypeScript using PureScript
+## "OhYes you can interop with TypeScript using PureScript"
 
 In this post, I go over how we can use datatype generics for codegen of TypeScript types from some PureScript type definitions.
 

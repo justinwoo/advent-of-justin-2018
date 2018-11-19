@@ -4,7 +4,7 @@ But surely, we should be able to hot swap this, right? There's no catch-all inst
 
 Well, considering that PureScript has anonymous record types, couldn't we get the compiler to infer some other type here that we can work with? Yeah, we can!
 
-## Modified JSON parsing for free with PureScript-Simple-JSON
+## "Modified JSON parsing for free with PureScript-Simple-JSON"
 
 In this post, I talked about how we can get the compiler to infer for us a type that is decoded from some JSON that we can then further manually decode and replace properties.
 
