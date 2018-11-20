@@ -2,7 +2,7 @@ Typically, approaches to represent parameterized paths in the type level have re
 
 Csongor wrote about how Symbol.Cons was implemented for PureScript, with an example library for deriving variadic functions here: <http://kcsongor.github.io/purescript-safe-printf/>. He also then made a record-based formatting library here: <https://github.com/kcsongor/purescript-record-format>. Surely we can take advantage of these to make a type-level path solution?
 
-## Well-typed path params in PureScript 0.12
+## "Well-typed path params in PureScript 0.12"
 
 In this post, I talked about how we can use the type-level parsing result from record-format to make a path:
 
