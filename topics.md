@@ -11,24 +11,25 @@
 1. (Lib)      Inferred record types with Simple-JSON
 1. (Row)      Tortellini
 1. (Symbol)   Type annotated type level string templates
-1. (Tutorial) CI for purescript projects
+1. (Tutorial) Implementing your own compiler type class
 1. (Nix)      Bower to nix
 1. (Lib)      Dynamically typed errors in purescript
 1. (Row)      Union Constraints
 1. (Symbol)   Jajanmen
-1. (Tutorial) Implementing your own compiler type class
+1. (Tutorial) FFI in purescript
 1. (Nix)      Pandoc with Nix
 1. (Types)    Instance chains and Kazunoko
 1. (Row)      Naporitan
 1. (Types)    Inferred error types
-1. (Tutorial) FFI in purescript
 1. (Row)      RowToList Chart.js
+1. (Final)    Closing thoughts
 
 categories:
 
 * row: 5
-* tutorial: 5
+* tutorial: 4
 * nix: 4
 * symbol: 4
 * types: 4
 * lib: 3
+* final: 1
