@@ -6,7 +6,7 @@ In this post, I talked about the various common FFI techniques in PureScript, su
 
 <https://qiita.com/kimagure/items/0ce4d9d2792dd110ee45>
 
-It's important to note that if you do want to validate some returned value from JS, you can readily put Simple-JSON to work to work on `Foreign`-typed values.
+It's important to note that if you do want to validate some returned value from JS, you can readily put Simple-JSON to work on `Foreign`-typed values.
 
 If reading a whole post seems like too much, I think your time is most well spent at least reading the Effect.Uncurried docs:
 
