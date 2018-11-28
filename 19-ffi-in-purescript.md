@@ -1,4 +1,4 @@
-One of the most convenient things about using PureScript is the FFI, which is quite lenient in letting you choose now you want to work with it. However, many times people don't learn enough about how the FFI works, usually because they think that it will be too hard/too much of a hassle, or see it as "below" them. Well, I don't know how we can help people in the latter camp, but the former camp can definitely be empowered with some references and examples.
+One of the most convenient things about using PureScript is the FFI, which is quite lenient in letting you choose how you want to work with it. However, many times people don't learn enough about how the FFI works, usually because they think that it will be too hard/too much of a hassle, or see it as "below" them. Well, I don't know how we can help people in the latter camp, but the former camp can definitely be empowered with some references and examples.
 
 ## "User empowerment of FFI in PureScript"
 
