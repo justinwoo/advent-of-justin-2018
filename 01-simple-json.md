@@ -64,6 +64,52 @@ Die nächsten Posts werden kürzer, aber hoffentlich lest ihr dann mehrere davon
 
 ---
 
+Bienvenidos al [Adviento](https://es.wikipedia.org/wiki/Calendario_de_Adviento) de Justin 2018! Había bromeado sobre hacer esto, pero parece que finalmente va a ser realidad.
+
+Para el primer día me gustaría presentar a un viejo favorito: Simple-JSON. Esta es una librería que hice en Julio del 2017, con la expectativa de que seria tan solo una demo. Poco podía saber entonces que esta librería se volvería relativamente popular como una forma atractiva de obtener serialización y deserialización automática de JSON/Foreign, y yo mismo me encontré utilizándola cuando comencé a usar PureScript en el trabajo.
+
+Lo que más me gusta de esta librería ni siquiera es la parte sobre JSON, sino que demuestra que podemos usar tipos para derivar valores a utilizar. Esto es lo que me hace seguir usando PureScript por encima de cualquier otro lenguaje que compile a JS, y lo que verán resaltado en la mayoría de mis posts sobre PureScript.
+
+## "Escribiendo un decoder JSON usando RowToList en PureScript"
+
+En este post presento exactamente qué es un Record, y cómo la información sobre la _fila_ de tipos puede ser transformada en una estructura de datos iterable a nivel de tipos para derivar encoders y decoders de valores de JS:
+
+<https://qiita.com/kimagure/items/d8a0681ae05b605c5abe>
+
+Hacia principios del año, comencé a dedicarle un poco de esfuerzo a documentar algunas de mis librerías. Gracias de ese esfuerzo, ahora tengo la siguiente documentación para Simple-JSON: <https://purescript-simple-json.readthedocs.io/en/latest/index.html>. Todo lo que un usuario de la librería debería necesitar esta ahí, incluyendo una guía sobre como usar Generics-Rep para escribir tus propios encodings para tipos suma o producto.
+
+Este es un extracto de la guía de comienzo rápido:
+
+```hs
+import Simple.JSON as JSON
+
+type MyRecordAlias =
+  { apple :: String
+  , banana :: Array Int
+  }
+
+testJSON1 :: String
+testJSON1 = """
+{ "apple": "Hello"
+, "banana": [ 1, 2, 3 ]
+}
+"""
+
+main = do
+  case JSON.readJSON testJSON1 of
+    Right (r :: MyRecordAlias) -> do
+      assertEqual { expected: r.apple, actual: "Hello"}
+      assertEqual { expected: r.banana, actual: [ 1, 2, 3 ] }
+    Left e -> do
+      assertEqual { expected: "failed", actual: show e }
+```
+
+## P.D.
+
+Bueno, el primer post del Adviento de Justin termino siendo un poco mas largo de lo planeado. Los próximos posts serán mas cortos, así que espero que leas más de estos.
+
+---
+
 Welcome to the Advent of Justin 2018! I've joked about making this happen, but I guess now it's actually happening.
 
 For the first day, I figured I would introduce an old favorite: Simple-JSON. This is a library that I first made in July 2017, with some expectation that it would just be a demo. Little did I know, this library actually became fairly popular as a nice way to get automatic de/serialization of JSON/Foreign, and I found myself immediately putting this library to work when beginning to use PureScript for work.
