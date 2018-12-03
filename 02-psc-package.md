@@ -12,7 +12,7 @@ Since I wrote this post, I've written some dependencies for an alternative packa
 
 <https://spacchetti.readthedocs.io/en/latest/intro.html>
 
-In a future post, I'll go more into how Spacchetti works by utilizing a programming called Dhall to generate package set JSON.
+In a future post, I'll go more into how Spacchetti works by utilizing a programming language called Dhall to generate package set JSON.
 
 You may also be interested in this post about upgrading a Bower project to Psc-Package: <https://qiita.com/kimagure/items/0d9354900d7a7dbd3864>
 
