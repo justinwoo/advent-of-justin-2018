@@ -1,3 +1,5 @@
+# Finnish
+
 Monet, jotka tutustuvat tarkemmin tyyppiluokkiin, yllättyvät huomatessaan, että "tyyppiluokat" ei itse asiassa tarkoita mitään yhtä asiaa vaan viittaa kokonaiseen kokoelmaan ominaisuuksia ja ideaan tyyppien käyttämisestä samanlaisella tavalla kuin arvoja käytetään. Niinpä kirjoitin tästä aiemmin pahamaineisessa blogipostauksessani "What I've learned since quitting Elm": <https://qiita.com/kimagure/items/93a42d67a8833f99fe2e#type-classes-is-not-a-single-feature>
 
 Tänään kutsun teidät oppimaan lisää siitä, mitä tyyppiluokat ja niihin liittyvät ominaisuudet todella ovat: tyyppien hahmonsovitusta.
@@ -18,6 +20,8 @@ Toivottavasti kalvoistani tajuaa jotakin vaikket tietäisikään kuinka RowToLis
 
 ---
 
+# English
+
 Many who read more about type classes are surprised to find that "type classes" doesn't actually mean a single thing, but relates to a whole family of features and the idea of working with types at a level similar to working with values. And so, I wrote about this before in my infamous blog post, "What I've learned since quitting Elm
 ": <https://qiita.com/kimagure/items/93a42d67a8833f99fe2e#type-classes-is-not-a-single-feature>
 
@@ -37,6 +41,9 @@ Since the post is so heavily focused on how RowList matching works, I later prep
 
 Hopefully my slides will make more sense if you're not familiar with how RowToList/RowList and such work. And while many of the people who should read this material really won't, I hope others can make some derivative works that help spread this knowledge to others, such that people start to learn more about this.
 
+---
+
+# German
 
 Viele, die mehr über Typklassen lernen, sind überrascht, dass "Typklassen" gar nichts einzelnes meint, sondern eher eine Reihe von Eigenschaften und eine Art des Arbeitens mit Typen ähnlich zum Arbeiten mit Werten bezeichnet. Ich habe bereits früher in meinem berühmt-berüchtigten Blogpost „What I've learned since quitting Elm“ (https://qiita.com/kimagure/items/93a42d67a8833f99fe2e#type-classes-is-not-a-single-feature) darüber geschrieben.
 
