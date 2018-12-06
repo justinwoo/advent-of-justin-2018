@@ -36,3 +36,22 @@ Since the post is so heavily focused on how RowList matching works, I later prep
 (source: <https://github.com/justinwoo/purescript-typelevel-intro/blob/master/slides.md>)
 
 Hopefully my slides will make more sense if you're not familiar with how RowToList/RowList and such work. And while many of the people who should read this material really won't, I hope others can make some derivative works that help spread this knowledge to others, such that people start to learn more about this.
+
+
+Viele, die mehr über Typklassen lernen, sind überrascht, dass "Typklassen" gar nichts einzelnes meint, sondern eher eine Reihe von Eigenschaften und eine Art des Arbeitens mit Typen ähnlich zum Arbeiten mit Werten bezeichnet. Ich habe bereits früher in meinem berühmt-berüchtigten Blogpost „What I've learned since quitting Elm“ (https://qiita.com/kimagure/items/93a42d67a8833f99fe2e#type-classes-is-not-a-single-feature) darüber geschrieben.
+
+Heute lade ich dich ein, mehr darüber zu lernen, was Typklassen und ihre Familie von Eigenschaften sind.
+
+## „Typklassen und Instanzen sind Musterabgleich für Typen“
+
+In diesem Artikel spreche ich darüber, wie Typklassen und ihre Instanzen eine Art von Mustervergleich für Typen darstellen, genauso wie Musterabgleich mit Case-Ausdrücken Musterabgleich für die Werte eines Typs ist. In Speziellen schreibe ich darüber, wie das für die RowList-Art (Kind) aus RowToList funktioniert:
+
+https://qiita.com/kimagure/items/08c59fa21adcd6968ae1
+
+Da dieser Artikel so stark darauf fokussiert war, wie der RowList-Abgleich funktioniert, habe ich später einige Beispiele und einen Vortrag auf einem niedrigen Niveau vorbereitet, wo ich einigen direkt vergleichbaren Code für Datentypen und nutzerdefinierten Kinds mit Datentypen dieser Kinds zeige:
+
+https://speakerdeck.com/justinwoo/type-classes-pattern-matching-for-types
+
+(Quelle: https://github.com/justinwoo/purescript-typelevel-intro/blob/master/slides.md)
+
+Hoffentlich ergeben diese Folien mehr Sinn, auch wenn du nicht mit RowToList/RowList und ähnlichem vertraut bist. Auch wenn viele, die das hier lesen das nicht tuen werden, hoffe ich, dass einige abgeleitete Werke erstellen werden, die dieses Wissen weiterverbreiten, sodass mehr Leute davon erfahren.
