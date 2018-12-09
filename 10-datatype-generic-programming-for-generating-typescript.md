@@ -29,11 +29,11 @@ instance showFruit :: Show Fruit where
 
 So in this example, we were able to get an implementation of `show` for free, by using the datatype generics implementation of `show` with a compiler-derived instance of `Generic` for `Fruit`.
 
-## "OhYes you can interop with TypeScript using PureScript"
+## Datatype-Generic programming for generating TypeScript code from Purescript
 
 In this post, I go over how we can use datatype generics for codegen of TypeScript types from some PureScript type definitions.
 
-<https://qiita.com/kimagure/items/4847685d02d4b15a556c>
+<https://qiita.com/kimagure/items/cc0ea2982abdf1625e87>
 
 While the newest version of the library talked about in the article now uses RowToList as TypeScript code generation largely targets Records and Variants, the ideas in it are more broadly applicable to any data types. Indeed, in PureScript 0.12, we no longer generate the generic representation for records (and that's a good thing, leave unto RowToList what is RowToList's), but we still use datatype generics for data types. 
 
