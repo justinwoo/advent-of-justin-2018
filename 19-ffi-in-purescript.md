@@ -1,3 +1,5 @@
+# Spanish
+
 Una de las cosas más convenientes al utilizar PureScript es su Interfaz de Funciones Foráneas (FFI), ya que resulta bastante permisiva sobre la forma de trabajar con ella. Sin embargo, muchas veces las personas no aprenden suficiente acerca del funcionamiento de la FFI, usualmente porque piensan que va a resultar muy complicado o demandar demasiado esfuerzo, o porque lo consideran "inferior" a lo que ellos hacen. Bueno, a este ultimo grupo no se como podemos ayudarlo, pero al primero definitivamente podemos dotarlo de poder con algunas referencias y herramientas.
 
 ## "Dándole poder al usuario de FFI en PureScript"
@@ -13,6 +15,8 @@ Si leer un post entero resulta demasiado, pienso que un muy buen uso de tu tiemp
 <https://pursuit.purescript.org/packages/purescript-effect/2.0.0/docs/Effect.Uncurried>
 
 ---
+
+# English
 
 One of the most convenient things about using PureScript is the FFI, which is quite lenient in letting you choose how you want to work with it. However, many times people don't learn enough about how the FFI works, usually because they think that it will be too hard/too much of a hassle, or see it as "below" them. Well, I don't know how we can help people in the latter camp, but the former camp can definitely be empowered with some references and examples.
 
