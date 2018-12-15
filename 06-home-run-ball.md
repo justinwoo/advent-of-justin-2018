@@ -1,3 +1,5 @@
+# English
+
 We've long seen row types being used to encode information in PureScript, with the built-in Record types (`data Record :: # Type -> Type`), with Polymorphic Variants (via the purescript-variant library), or even the old Eff type (which was not very useful: <https://purescript-resources.readthedocs.io/en/latest/eff-to-effect.html>). But not many people take enough advantage of them for how they hold information you can use. While many users of variant will take advantage of the `match` function and others that work by iterating the row type information via RowToList, they do not make their own implementations that use these.
 
 ## "Fun Row-typed Validation with Purescript-Home-Run-Ball"
@@ -19,7 +21,9 @@ onApples
    . ValidatedValue (beginsApple :: BeginsWith "Apple" | r) String
   -> String
 onApples _ = "U R COOL"
+
 ```
+
 # German
 Row-Typen werden schon lange verwendet, im Informationen in PureScript darzustellen, mit den eingebauten Record-Typen (`data Record :: # Type -> Type`), mit polymorphen Variants (über die purescript-variant Bibliothek) oder mit dem alten Eff-Typen (der nicht sehr nützlich war <https://purescript-resources.readthedocs.io/en/latest/eff-to-effect.html>). Aber viele Menschen nutzen das, aufgrund der Wege, wie man die enthaltene Information verarbeiten kann. Viele Variant-Benutzer verwenden die `match` Funktion und andere, die funktionieren, indem sie über die Row-Typ Informationen via RowToList iterieren. Kaum jemand aber erstellt seine eigenen Funktionen, die so arbeiten.
 
@@ -41,3 +45,7 @@ aufApfel
   -> String
 onApples _ = "Du bist cool."
 ```
+
+---
+
+Thanks to [BenBals](http://twitter.com/benbals) for the German translation!
