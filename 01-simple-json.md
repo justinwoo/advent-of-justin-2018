@@ -153,3 +153,51 @@ main = do
 ## P.S.
 
 So the first post of the Advent of Justin ended up being a little longer than planned. The next posts will be shorter, but hopefully you'll read through some more of these.
+
+---
+
+# Japanese
+
+Justinアドベント2018にようこそ!こんなことやるぞと今まで遊びで言ってきましたが､本当に実現してしまいました。
+
+初日である今回は、古いお気に入りである`Simple-JSON`を紹介します｡2017年7月に作成を始めたライブラリで、面白い試みと思い発表した、ただのデモでした。意外にもJSON/Foreign(JS)の機械的なデシリアライズ/シリアライゼーションを行う上で、このライブラリはかなりの好評を博しました。私自身もPureScriptを仕事に使うときに、すぐにこのライブラリを使用することができました。
+
+このライブラリで本当に大好きな点は、実際にはJSONに関する部分ではなく、型を使用して派生した値を簡単に利用できる点です。これは私がAltJSと呼ばれる他のどの言語よりPureScriptを使う理由であり、PureScriptに関する私の記事の中に頻繁に登場します。
+
+## "PurescriptのRowToListを使用したJSONデコーダの記述"
+
+下記の記事では、正確に `Record`が何であるか確認し、row型の情報を型レベルの派生できるデータ構造に変換してJS値に対するデコーダとエンコーダを導出する方法について説明します。
+
+<https://qiita.com/kimagure/items/d8a0681ae05b605c5abe>
+
+今年の上期からいくつかのライブラリのドキュメント作成に力を入れ始めました。結果として、Simple-JSON用のドキュメントをこのようにまとめました。<https://purescript-simple-json.readthedocs.io/en/latest/index.html> ユーザーが必要とするこのライブラリに関する情報はすべてここにまとめています。Generics-Repを使ってsum/product型のエンコードを書く方法についてのガイドも含まれています。
+
+クイックスタートの抜粋は、次のとおりです。
+
+```hs
+import Simple.JSON as JSON
+
+type MyRecordAlias =
+  { apple :: String
+  , banana :: Array Int
+  }
+
+testJSON1 :: String
+testJSON1 = """
+{ "apple": "Hello"
+, "banana": [ 1, 2, 3 ]
+}
+"""
+
+main = do
+  case JSON.readJSON testJSON1 of
+    Right (r :: MyRecordAlias) -> do
+      assertEqual { expected: r.apple, actual: "Hello"}
+      assertEqual { expected: r.banana, actual: [ 1, 2, 3 ] }
+    Left e -> do
+      assertEqual { expected: "failed", actual: show e }
+```
+
+## あとがき
+
+Justinアドベント2018の始まりは想定より少し長くなってしまいました。以降の記事は短くまとめるつもりですので､ぜひご覧になってください。
