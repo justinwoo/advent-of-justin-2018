@@ -1,3 +1,5 @@
+# German
+
 Willkommen beim *Advent of Justin* 2018! Ich habe schon darüber Witze gemacht
 dass das passieren wird, aber jetzt ist es wohl tatsächlich soweit.
 
@@ -64,6 +66,8 @@ Die nächsten Posts werden kürzer, aber hoffentlich lest ihr dann mehrere davon
 
 ---
 
+# Spanish
+
 Bienvenidos al [Adviento](https://es.wikipedia.org/wiki/Calendario_de_Adviento) de Justin 2018! Había bromeado sobre hacer esto, pero parece que finalmente va a ser realidad.
 
 Para el primer día me gustaría presentar a un viejo favorito: Simple-JSON. Esta es una librería que hice en Julio del 2017, con la expectativa de que seria tan solo una demo. Poco podía saber entonces que esta librería se volvería relativamente popular como una forma atractiva de obtener serialización y deserialización automática de JSON/Foreign, y yo mismo me encontré utilizándola cuando comencé a usar PureScript en el trabajo.
@@ -109,6 +113,8 @@ main = do
 Bueno, el primer post del Adviento de Justin termino siendo un poco mas largo de lo planeado. Los próximos posts serán mas cortos, así que espero que leas más de estos.
 
 ---
+
+# English
 
 Welcome to the Advent of Justin 2018! I've joked about making this happen, but I guess now it's actually happening.
 
@@ -201,3 +207,7 @@ main = do
 ## あとがき
 
 Justinアドベント2018の始まりは想定より少し長くなってしまいました。以降の記事は短くまとめるつもりですので､ぜひご覧になってください。
+
+---
+
+Thanks to [alech](https://twitter.com/alech) for the German, [mvaldesdeleon](https://twitter.com/mvaldesdeleon) for the Spanish, and @noolbar for the Japanese version!
