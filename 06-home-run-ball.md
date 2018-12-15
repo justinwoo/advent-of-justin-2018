@@ -20,3 +20,24 @@ onApples
   -> String
 onApples _ = "U R COOL"
 ```
+# German
+Row-Typen werden schon lange verwendet, im Informationen in PureScript darzustellen, mit den eingebauten Record-Typen (`data Record :: # Type -> Type`), mit polymorphen Variants (über die purescript-variant Bibliothek) oder mit dem alten Eff-Typen (der nicht sehr nützlich war <https://purescript-resources.readthedocs.io/en/latest/eff-to-effect.html>). Aber viele Menschen nutzen das, aufgrund der Wege, wie man die enthaltene Information verarbeiten kann. Viele Variant-Benutzer verwenden die `match` Funktion und andere, die funktionieren, indem sie über die Row-Typ Informationen via RowToList iterieren. Kaum jemand aber erstellt seine eigenen Funktionen, die so arbeiten.
+
+## "Spaßige Row-getypte Validierung mit PureScript-Home-Run-Ball"
+
+Eine der spaßigsten Sachen, an denen ich im letzten Jahr gearbeitet habe, verwendete Row-Tppe Informationen um zu speichen, welche Validierung durchzuführen ist und welche schon durchgeführt wurde. Und so konnten wir mit diesen zusätzlichen Typinformationen automatisch eine [Validation](https://qiita.com/kimagure/items/f75befebdd37f6e8879f) ableiten, mit einem newtype, der die ausgeführten Valdierungen getragen hat.
+
+<https://qiita.com/kimagure/items/eeb40541fc56b8dba2cc>
+
+```hs
+nurAufAepfel
+  :: ValidatedValue (beginntMitApfel :: BeginsWith "Apfel") String
+  -> String
+nurAufAepfel _ = "Du bist cool."
+
+aufApfel
+  :: forall r
+   . ValidatedValue (beginntMitApfel :: BeginsWith "Apfel" | r) String
+  -> String
+onApples _ = "Du bist cool."
+```
