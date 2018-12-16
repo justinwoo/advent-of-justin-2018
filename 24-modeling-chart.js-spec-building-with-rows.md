@@ -51,3 +51,7 @@ newtype ChartBuilder
 Union制約のシステムを表現するために複数の制約を同時に解決できるのであれば便利ですが、一度に1つの制約しか完全に決定できないため、RowToListに関して実装する必要があります。この問題については、"PureScriptで異なる型のレコードの差分を取る"という記事で詳しく書かれていますので、時間があれば読んでください。
 
 <https://qiita.com/kimagure/items/ca229cb4ba76db0c24a8>
+
+---
+
+Thanks to @noolbar for the Japanese translation!
