@@ -71,3 +71,7 @@ readRecordMisnamedField s = do
 ```
 
 これは推論された前後関係から `grape :: Int`を使ってJSONを読み込みます。
+
+---
+
+Thanks to @noolbar for the Japanese translation!
