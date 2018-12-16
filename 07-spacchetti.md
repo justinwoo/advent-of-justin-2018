@@ -4,7 +4,7 @@ The other major complaint that people have had is that they don't want to fork t
 
 ## "Managing Psc-Package sets with Dhall"
 
-In this post, I introduced my Spacchetti project: <https://github.com/justinwoo/spacchetti>
+In this post, I introduced my Spacchetti project: <https://github.com/spacchetti/spacchetti>
 
 <https://qiita.com/kimagure/items/c419ba740ac134a837a2>
 
@@ -14,11 +14,11 @@ This also means that local overrides for packages are nothing but using a Dhall 
 
 ```hs
     let mkPackage =
-          https://raw.githubusercontent.com/justinwoo/spacchetti/140918/src/mkPackage.dhall
+          https://raw.githubusercontent.com/spacchetti/spacchetti/140918/src/mkPackage.dhall
 
 in  -- ...
 ```
 
-There's a CLI that helps you do this without too much trouble: <https://github.com/justinwoo/spacchetti-cli>
+There's a CLI that helps you do this without too much trouble: <https://github.com/spacchetti/spago>
 
 Since I wrote this post, I've also written a large amount of documentation explaining how everything here works, from how Psc-Package itself works, why Dhall is used here, how to use this package set, and how to set up a project with local overrides for packages. See the guide here: <https://spacchetti.readthedocs.io/en/latest/>
