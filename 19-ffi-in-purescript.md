@@ -50,3 +50,6 @@ https://qiita.com/kimagure/items/0ce4d9d2792dd110ee45
 
 https://pursuit.purescript.org/packages/purescript-effect/2.0.0/docs/Effect.Uncurried
 
+---
+
+Thanks to [mvaldesdeleon](https://twitter.com/mvaldesdeleon) for the Spanish and @e_ntyo for the Japanese translations!
