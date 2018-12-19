@@ -31,3 +31,22 @@ It's important to note that if you do want to validate some returned value from 
 If reading a whole post seems like too much, I think your time is most well spent at least reading the Effect.Uncurried docs:
 
 <https://pursuit.purescript.org/packages/purescript-effect/2.0.0/docs/Effect.Uncurried>
+
+---
+
+# 日本語
+
+FFIはPureScriptにおいて最も強力な機能の一つであり、様々なアプローチで活用することができます。しかしながら、多くの人はFFIがどう機能しているか知りません。なぜなら、一般的にFFIは「学習コストが高そう」と思われていたり、なぜだか過小評価されていたりするためです。後者のケースについてはどうにもできませんが、前者については間違いなく、この記事で紹介するリンクと実例が参考になるでしょう。
+
+## "User empowerment of FFI in PureScript"
+
+次の記事では、PureScriptにおけるFFIの一般的なテクニックについて書きました。 **uncurried effect functions** , **opaque data types** , **Promises to Aff** などです。
+
+https://qiita.com/kimagure/items/0ce4d9d2792dd110ee45
+
+また、JSから返された値をバリデートしたい場合、[Simple-JSON](https://github.com/justinwoo/purescript-simple-json)を使って、その値を`Foreign`-typed な値として扱うことができます。
+
+もし紹介した記事を最後まで読むのが大変なら、最低限 `Effect.Uncurried` の公式ドキュメントを読めば良いでしょう。
+
+https://pursuit.purescript.org/packages/purescript-effect/2.0.0/docs/Effect.Uncurried
+
